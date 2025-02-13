@@ -170,20 +170,3 @@ apt --fix-broken install
 ```
 
 ---
-
-## Advanced APT Operations
-
-Search for files in packages.
-```bash
-sudo apt install apt-file
-apt-file update
-apt-file search <file_name>
-```
-
-Example: Search for `/usr/bin/zip`
-```
-apt-file search /usr/bin/zip
-```
-
-
-
